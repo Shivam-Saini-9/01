@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .btn{
+            border-radius: 10px;
+            height: 60px ;
+            width: 170px;
+            background: rgb(0, 255, 217);
+            font-size: 18px;
+            margin: 5px;    
+            padding: 5px;        
+        }
+        .btn:hover{
+            background: linear-gradient(45deg, #000000,#2596a0, #000000);
+            transition: step-end;
+            color: rgb(215, 251, 251);
+        }
+        .btn:active{
+           background: linear-gradient(135deg, #000000,#8d1313, #000000);
+           border: 2px solid;
+        }
+    </style>
+    <title>Object</title>
+</head>
+<body>
+    <div>
+        <button class="btn" onclick="obje()">Object</button>
+        <button class="btn" onclick="objarr()">Object in Array</button>
+        <button class="btn" onclick="funinfun()">Function in Function</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
